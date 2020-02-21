@@ -208,4 +208,5 @@ def animate(data):
                                    init_func=init,
                                    frames=len(data),
                                    interval=20)
-    return HTML(anim.to_html5_video())
+    #return HTML(anim.to_html5_video())
+    return anim
